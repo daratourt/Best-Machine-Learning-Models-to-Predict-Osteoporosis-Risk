@@ -1,4 +1,4 @@
-# Best Machine Learning Models to Predict Osteoporosis Risk with Imbalanced Data using SMOTE
+# Best Machine Learning Models to Predict Osteoporosis Risk
 ## Project Overview:
 Osteoporosis is a severe condition characterized by weakened bones, leading to an increased risk of fractures. Early prediction and diagnosis can help in managing and preventing the condition, thereby improving the quality of life for at-risk individuals, particularly older women. This study aims to identify the best machine learning models to predict osteoporosis risk using a balanced dataset.
 
