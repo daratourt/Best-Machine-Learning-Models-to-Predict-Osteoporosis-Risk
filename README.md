@@ -25,8 +25,6 @@ The dataset offers comprehensive information on health factors influencing osteo
 | `Prior Fracture`                 | Whether the patient has had a prior fracture               |
 | `Osteoporosis`                   | Whether the patient has osteoporosis                       |
 
-**Table 1: Performance metrics of various machine learning models for predicting osteoporosis risk.**
-
 ## Methods
 ### Data Preprocessing
 The dataset was carefully prepared to make it suitable for machine learning analysis. Initially, we converted all categorical data into numerical data because machine learning algorithms require numerical input. This conversion was done using a technique called label encoding, which assigns a unique number to each category. After encoding, we checked to ensure the conversion was correct by reviewing the unique values for each column.
@@ -58,6 +56,8 @@ The evaluation of multiple machine learning models for predicting osteoporosis r
 | HistGradientBoosting        | 0.880102 | 0.941860  | 0.814070 | 0.873315 | 0.905564 |
 | NGBoost                     | 0.910714 | 1.000000  | 0.824121 | 0.903581 | 0.906905 |
 | Support Vector Classifier   | 0.821429 | 0.872832  | 0.758794 | 0.811828 | 0.894056 |
+
+**Table 1: Performance metrics of various machine learning models for predicting osteoporosis risk.**
 
 ### Analysis
 
