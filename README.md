@@ -151,6 +151,12 @@ The confusion matrices and Table 2 illustrate the performance of each model in t
 
 - **Support Vector Classifier**: While achieving respectable metrics, this model was outperformed by the other models in terms of accuracy, precision, and recall. Its confusion matrix shows a relatively higher number of false positives and false negatives compared to the top-performing models.
 
+- **Logistic Regression**: This model showed a balanced performance with decent accuracy, precision, recall, and F1 score, making it a reliable baseline model.
+
+- **XGBoost and LightGBM**: These models also performed well, demonstrating high accuracy and balanced precision and recall, making them strong contenders for clinical application.
+
+- **CatBoost and HistGradientBoosting**: Both models showed robust performance with high accuracy and F1 scores, indicating their reliability in predicting osteoporosis risk.
+
 Overall, the ensemble methods, particularly NGBoost, Gradient Boosting, and AdaBoost, showed superior performance, highlighting their effectiveness in handling complex classification tasks such as osteoporosis risk prediction. The consistency across various performance metrics suggests these models are robust and reliable for clinical application.
 
 ## Discussion
@@ -180,9 +186,6 @@ Future work could also explore the integration of these models into electronic h
 The findings of this study suggest that NGBoost, Gradient Boosting, and AdaBoost are the most effective machine learning models for predicting osteoporosis risk. These models demonstrated high accuracy, precision, recall, and F1 scores, making them suitable for clinical applications in osteoporosis risk prediction. The superior performance of these ensemble methods highlights their potential to be integrated into healthcare systems to aid in early diagnosis and intervention, ultimately improving patient outcomes.
 
 The study underscores the importance of using a combination of performance metrics to evaluate model effectiveness and the need for further research to validate and enhance these models. By leveraging the strengths of machine learning, particularly ensemble methods, healthcare providers can significantly improve the management and prevention of osteoporosis, leading to better health outcomes for patients at risk of this debilitating condition.
-
-
-
 
 
 
