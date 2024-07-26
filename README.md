@@ -1,8 +1,6 @@
-# Effectiveness of Significant Feature Selection and Oversampling Techniques in Osteoporosis Risk Prediction
+# Best Machine Learning Models to Predict Osteoporosis Risk with Imbalanced Data using SMOTE
 ## Project Overview:
-Osteoporosis is a severe condition characterized by weakened bones, leading to an increased risk of fractures. Early prediction and diagnosis can help in managing and preventing the condition, thereby improving the quality of life for at-risk individuals, particularly older women.
-
-The primary goal of this project is to predict the risk of osteoporosis in patients using machine learning techniques. By analyzing patients' medical records, we aim to identify key features that contribute to osteoporosis risk and enhance prediction accuracy through significant feature selection and oversampling techniques.
+Osteoporosis is a severe condition characterized by weakened bones, leading to an increased risk of fractures. Early prediction and diagnosis can help in managing and preventing the condition, thereby improving the quality of life for at-risk individuals, particularly older women. This study aims to identify the best machine learning models to predict osteoporosis risk using a balanced dataset.
 
 ## About the dataset
 The dataset offers comprehensive information on health factors influencing osteoporosis development, including demographic details, lifestyle choices, medical history, and bone health indicators. It aims to facilitate research in osteoporosis prediction, enabling machine learning models to identify individuals at risk. Analyzing factors like age, gender, hormonal changes, and lifestyle habits can help improve osteoporosis management and prevention strategies.
