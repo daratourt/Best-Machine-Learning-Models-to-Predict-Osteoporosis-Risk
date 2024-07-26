@@ -24,7 +24,7 @@ The dataset offers comprehensive information on health factors influencing osteo
 | `Medication`                     | Medication details of the patient                          |
 | `Prior Fracture`                 | Whether the patient has had a prior fracture               |
 | `Osteoporosis`                   | Whether the patient has osteoporosis                       |
-
+**Table 1: Performance metrics of various machine learning models for predicting osteoporosis risk.**
 ## Methods
 ### Data Preprocessing
 The dataset was carefully prepared to make it suitable for machine learning analysis. Initially, we converted all categorical data into numerical data because machine learning algorithms require numerical input. This conversion was done using a technique called label encoding, which assigns a unique number to each category. After encoding, we checked to ensure the conversion was correct by reviewing the unique values for each column.
