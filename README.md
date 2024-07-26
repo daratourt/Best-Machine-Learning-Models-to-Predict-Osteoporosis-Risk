@@ -42,4 +42,28 @@ To compare these models, we used several performance measures: accuracy (how oft
 
 ## Results
 
+The evaluation of multiple machine learning models for predicting osteoporosis risk yielded the following performance metrics:
+
+| Model                       | Accuracy | Precision | Recall   | F1 Score | AUC      |
+|-----------------------------|----------|-----------|----------|----------|----------|
+| Logistic Regression         | 0.803571 | 0.824468  | 0.778894 | 0.801034 | 0.895175 |
+| Random Forest               | 0.844388 | 0.942308  | 0.738693 | 0.828169 | 0.891830 |
+| AdaBoost                    | 0.903061 | 1.000000  | 0.809045 | 0.894444 | 0.909378 |
+| Gradient Boosting           | 0.908163 | 0.993939  | 0.824121 | 0.901099 | 0.899732 |
+| XGBoost                     | 0.867347 | 0.901639  | 0.829146 | 0.863874 | 0.905330 |
+| LightGBM                    | 0.885204 | 0.937500  | 0.829146 | 0.880000 | 0.906007 |
+| CatBoost                    | 0.905612 | 0.982143  | 0.829146 | 0.899183 | 0.896061 |
+| HistGradientBoosting        | 0.880102 | 0.941860  | 0.814070 | 0.873315 | 0.905564 |
+| NGBoost                     | 0.910714 | 1.000000  | 0.824121 | 0.903581 | 0.906905 |
+| Support Vector Classifier   | 0.821429 | 0.872832  | 0.758794 | 0.811828 | 0.894056 |
+
+### Analysis
+
+The results indicate that the NGBoost model achieved the highest accuracy (91.07%), precision (100%), and F1 score (90.36%), with an AUC of 0.9069, making it the most effective model for predicting osteoporosis risk in this study. Gradient Boosting and AdaBoost also performed very well, with high accuracy and F1 scores, indicating their suitability for this task.
+
+While the Random Forest model demonstrated high precision (94.23%), its recall was lower compared to other models, suggesting it was better at predicting negative cases than positive cases. The Support Vector Classifier, while achieving respectable metrics, was outperformed by the other models in terms of accuracy, precision, and recall.
+
+Overall, the ensemble methods, particularly NGBoost, Gradient Boosting, and AdaBoost, showed superior performance, highlighting their effectiveness in handling complex classification tasks such as osteoporosis risk prediction. The consistency across various performance metrics suggests these models are robust and reliable for clinical application.
+
+
 ## Conclusions
